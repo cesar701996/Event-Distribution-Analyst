@@ -30,7 +30,7 @@ This is an analytical exercise. You never place, route or simulate orders agains
 
 - Free sources only, all pulled with Python: yfinance (prices, option chains, earnings dates,
   consensus), SEC EDGAR (8-K Item 2.02 dates and EX-99.1 press releases, with a proper
-  User-Agent set in `SEC_USER_AGENT`), company IR pages if needed, Google Trends via pytrends.
+  User-Agent read from the `SEC_USER_AGENT` environment variable; never commit the contact), company IR pages if needed, Google Trends via pytrends.
 - If a source fails, say so in the report and keep going with what you have.
 - **Never make up a number.** Every figure in the report must trace to a file in `data/`.
   Anything estimated is labeled as an estimate.

@@ -41,6 +41,14 @@ fixed before looking at results, and "no trade" when the gap is small or the dat
 pip install -r requirements.txt
 ```
 
+Set your SEC contact once (SEC requires a name and email on automated requests; it stays out of the repo). In PowerShell:
+
+```bash
+setx SEC_USER_AGENT "Your Name event-research script (you@domain.edu)"
+```
+
+Then open a new terminal and run:
+
 ```bash
 python code/run_all.py
 ```

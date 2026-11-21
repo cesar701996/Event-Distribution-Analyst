@@ -4,6 +4,7 @@ Shared settings for the Event Distribution Analyst pipeline.
 Every script imports from here, so changing the as-of date, the universe or a
 threshold in one place changes it everywhere. Rerun with:  python code/run_all.py
 """
+import os
 from pathlib import Path
 import datetime as dt
 
@@ -30,9 +31,12 @@ N_EVENTS = 12                          # last N reported earnings used for base 
 HOLIDAYS = ["2026-11-26", "2026-12-25", "2027-01-01", "2027-01-18"]
 
 # ---------------------------------------------------------------- SEC EDGAR
-# SEC asks automated clients to identify themselves. Replace the contact with
-# your own before running at scale.
-SEC_USER_AGENT = "EventDistributionAnalyst research script (contact: research@example.com)"
+# SEC asks automated clients to identify themselves with a name and contact email.
+# Set it in the SEC_USER_AGENT environment variable so it never gets committed, e.g.
+#   PowerShell:  setx SEC_USER_AGENT "Your Name event-research script (you@domain.edu)"
+#   bash:        export SEC_USER_AGENT="Your Name event-research script (you@domain.edu)"
+SEC_USER_AGENT_DEFAULT = "EventDistributionAnalyst research script (contact not set)"
+SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", SEC_USER_AGENT_DEFAULT)
 
 # ---------------------------------------------------------------- forecast knobs (see report "Method")
 W_FULL, W_RECENT = 0.6, 0.4            # base move = 0.6*mean|move| (12) + 0.4*mean|move| (last 4)

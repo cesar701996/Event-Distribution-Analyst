@@ -8,7 +8,7 @@ import requests
 from scipy.stats import norm
 from scipy.optimize import brentq
 
-from config import HOLIDAYS, SEC_USER_AGENT
+from config import HOLIDAYS, SEC_USER_AGENT, SEC_USER_AGENT_DEFAULT
 
 HOL = np.array(HOLIDAYS, dtype="datetime64[D]")
 
@@ -52,8 +52,15 @@ def implied_vol(price, S, K, T, r=0.0, q=0.0, kind="c"):
 
 
 # ---------------------------------------------------------------- SEC EDGAR
+_UA_WARNED = False
+
+
 def sec_get(url, sleep=0.15, **kw):
     """GET with the SEC-required User-Agent and a small pause (SEC limit is 10 req/s)."""
+    global _UA_WARNED
+    if SEC_USER_AGENT == SEC_USER_AGENT_DEFAULT and not _UA_WARNED:
+        print("NOTE: SEC_USER_AGENT environment variable is not set; SEC may throttle requests. See code/config.py.")
+        _UA_WARNED = True
     time.sleep(sleep)
     r = requests.get(url, headers={"User-Agent": SEC_USER_AGENT, "Accept-Encoding": "gzip, deflate"},
                      timeout=30, **kw)
