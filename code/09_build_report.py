@@ -304,5 +304,18 @@ for tk in order:
         actual_move_pct="", actual_abs_move_pct="", abs_move_vs_implied="", abs_move_vs_forecast="",
         direction_correct="", trade_result="", notes="",
     ))
-pd.DataFrame(rows).to_csv(ROOT / "forecast_log.csv", index=False)
+log = pd.DataFrame(rows)
+# Keep any results already recorded by 10_scorecard.py so a rerun never blanks them.
+if (DATA / "scorecard.csv").exists():
+    sc = pd.read_csv(DATA / "scorecard.csv", dtype=str).fillna("").set_index(["ticker", "event_date"])
+    for i, r in log.iterrows():
+        k = (r.ticker, str(r.event_date))
+        if k in sc.index:
+            x = sc.loc[k]
+            for c in ["actual_move_pct", "actual_abs_move_pct", "abs_move_vs_implied", "abs_move_vs_forecast",
+                      "direction_correct"]:
+                log.loc[i, c] = x[c]
+            if x.trade_result:
+                log.loc[i, "trade_result"] = f"{x.trade_result} {x.trade_pnl_per_share}/sh at expiry ({x.expiry_close})"
+log.to_csv(ROOT / "forecast_log.csv", index=False)
 print("forecast_log.csv written")
