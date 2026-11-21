@@ -1,0 +1,138 @@
+{
+  "_readme": "Judgment inputs for step 4 (fundamental view). Numbers quoted here come from data/fundamentals/* (yfinance consensus and SEC EDGAR EX-99.1 press releases) pulled as of 2026-11-20. direction: +1 up, 0 neutral, -1 down. confidence: 1-5. uncertainty_mult: scales the forecast move size for event-specific uncertainty (0.9 low, 1.0 normal, 1.1 high). Edit this file and rerun code/run_all.py to update the forecast.",
+  "_market_backdrop": "Week of Nov 16-20 2026: AI-trade unwind. SPY -8.6% and QQQ -10.5% on the week, SMH -17.8%, IGV -9.4%, VIX 35.9. NVDA -14% on Nov 20 after its CEO resigned and Reuters reported an SEC review of its accounting. Anthropic IPO priced Nov 19 and did not stop the selloff. 1-month implied correlation jumped above 30 (Bloomberg via Investing.com). All four names report into this tape, so single-stock prints compete with macro and factor moves.",
+  "CRM": {
+    "event": "Q3 FY27 results, Wed Dec 2 after the close (confirmed)",
+    "consensus_vs_guidance": "Company guide (Aug 26 release): revenue $11.42-11.50B (+11-12% Y/Y, ~4 pts from Informatica), non-GAAP EPS $3.42-3.44, cRPO ~14% Y/Y. Consensus: revenue $11.46B (exactly the guide midpoint), EPS $3.45 (one cent above the top of the guide, 42 analysts). The bar is not demanding.",
+    "revisions": "Quarter EPS consensus +2.3% over 90 days, flat over 30 days (1 up, 1 down). FY27 EPS +18.5% over 90 days after the Q2 beat and the ASR share-count cut.",
+    "tone": "Very upbeat: 'one of our best quarters ever', NNAOV growth the strongest in four years, 'on track for second-half organic revenue reacceleration', FY27 revenue guide raised $200M. Contentful and Fin acquisitions pending; $25B ASR settled in October.",
+    "sector_news": "Software sold off into the Anthropic IPO on AI-substitution fears. CRM -17% on the week, -25% over a month and about -28% from the post-Q2 close. Headlines: another round of layoffs, ETF net selling three days running, Oppenheimer says the low bar sets up a beat, Piper sees 53% upside.",
+    "direction": 1,
+    "confidence": 3,
+    "uncertainty_mult": 1.0,
+    "why": "Consensus sits at the guide midpoint and management has publicly committed to 2H organic reacceleration, so the numbers bar is low. The de-rating came from sector fear, not company numbers (forward P/E ~11). Capped at 3 because correlation is high and the macro tape can swamp a good print.",
+    "trade": {
+      "name": "Short Dec 4 180 iron butterfly, put wing pushed out to 145 (broken wing)",
+      "legs": [
+        {
+          "type": "c",
+          "strike": 180,
+          "qty": -1
+        },
+        {
+          "type": "p",
+          "strike": 180,
+          "qty": -1
+        },
+        {
+          "type": "c",
+          "strike": 207.5,
+          "qty": 1
+        },
+        {
+          "type": "p",
+          "strike": 145,
+          "qty": 1
+        }
+      ],
+      "hedge_delta": false,
+      "thesis": "The market is pricing a {imp}% earnings move for CRM; history plus today's vol regime says {fc}%, and the put side is priced for a crash we do not expect from a print where consensus only sits at the guidance midpoint.",
+      "why_structure": "Selling the 180 straddle sells the event vol we think is rich. Wings cap the loss because CRM has moved ~20% twice in 12 prints. The put wing sits further out (145, ~-20%) than the call wing (207.5, ~+15%) because downside options are the expensive ones (25d RR {rr} vols vs our {rr_ours}) and our direction lean is up (p(up) {p_up}).",
+      "needs": "CRM to settle Dec 4 between {be_lo} and {be_hi} (about {be_lo_pct}% / +{be_hi_pct}% from {spot}). Our model puts the win rate at {win}% with an expected P&L of {ev}% of spot at Friday marks. Better entry: put it on at the close on Dec 2, when only the event and one ordinary day remain; at today's event pricing that straddle would be about {evday}% of spot, and {hist_inside} of the last 12 CRM moves fit inside it.",
+      "wrong": "A guide-down on cRPO or Agentforce monetisation, or the market treating the print as proof of AI seat compression, sends CRM through 161 and toward the 145 wing. Also wrong if the event-implied move falls toward our {fc}% before entry (no edge left) or if realized vol keeps running at 40%+ into Dec 2, which bleeds the position before the print.",
+      "risks": "Static P&L at expiry by move: {scenarios}. Max loss {max_loss} per share below 145 ({max_loss_pct}% of spot), {max_loss_up} above 207.5. With implied correlation above 30, index moves can push CRM through a breakeven regardless of the print. Weekend marks are 9% wide at the money; recheck the credit on Monday."
+    }
+  },
+  "AVGO": {
+    "event": "Q4 FY26 results, Wed Dec 9 after the close (confirmed)",
+    "consensus_vs_guidance": "Company guide (Sep 2 release): revenue ~$34.8B (+93% Y/Y), AI semiconductor revenue $21.7B (+236% Y/Y), non-GAAP operating margin ~66%. Consensus: revenue $34.90B (0.3% above guide), EPS $3.83 (41 analysts).",
+    "revisions": "Quarter EPS consensus -1.2% over 90 days, flat over 30 days (2 up, 0 down). Price targets are coming down (Goldman to $460 from $540 on Nov 18, still Buy).",
+    "tone": "Confident: 'demand for our custom AI accelerators and networking continues to be very strong'; AI revenue guided to accelerate again in Q4.",
+    "sector_news": "Nov 20: -12% on a Ming-Chi Kuo report that Google cut ~1M Broadcom-designed TPUs from 2027 plans and is looking at MediaTek. Redburn downgrade. NVDA CEO exit and the reported SEC probe hit all AI semis. AVGO is also a lender to and shareholder in Anthropic.",
+    "direction": 0,
+    "confidence": 2,
+    "uncertainty_mult": 1.1,
+    "why": "The Q4 numbers are probably fine (AVGO beat EPS in every quarter with data, 11 of 11; yfinance lacks the Sep 2026 figure, and the AI revenue guide is already out), but the stock will trade on the FY27 AI outlook and the Google TPU question, which free data cannot resolve. Despite the beats, the stock fell after 6 of the last 12 prints. Two-sided, so neutral. Uncertainty set high because the Google answer is close to binary."
+  },
+  "ORCL": {
+    "event": "Q2 FY27 results, Mon Dec 14 after the close (confirmed)",
+    "consensus_vs_guidance": "Company guide (Sep 10 release): total revenue +30-34% Y/Y, cloud revenue +65-71% (USD), non-GAAP EPS $1.85-1.93 (USD). FY27: revenue at least $90B, non-GAAP EPS $8.10. Consensus: revenue $21.33B (+32.8% Y/Y, above the 32% guide midpoint), EPS $1.89 (guide midpoint, 33 analysts).",
+    "revisions": "Quarter EPS consensus -0.2% over 30 days with 4 down and 1 up; flat over 90 days. FY EPS +1.2% over 90 days.",
+    "tone": "Demand bullish ('AI demand continues to grow faster than supply', RPO $664B after $30B+ of new AI contracts), but Q1 free cash flow was -$5B on $28.5B of capex and Oracle sold $20B of stock through its ATM program. The release says new contracts do not add to capital-raising plans.",
+    "sector_news": "-19% on the week, lowest close since April 2024, -46% over six months. Worries centre on financing the AI build-out and OpenAI exposure. Nov 20: Oracle said the OpenAI contract is fully funded. Bernstein's AI-fails downside case ($133) is above the share price; Burry closed his ORCL puts.",
+    "direction": 0,
+    "confidence": 2,
+    "uncertainty_mult": 1.1,
+    "why": "Revenue consensus is already above the guide midpoint and EPS revisions lean down, so the numbers bar is not low. Against that, sentiment is washed out and management pre-empted the funding question on Nov 20. The swing factor (capex, cash burn, financing, RPO conversion) can go either way. Uncertainty set high because financing headlines make this print more binary than usual.",
+    "trade": {
+      "name": "Long Dec 18 25-delta risk reversal (sell 85 put, buy 120 call), delta-hedged with stock",
+      "legs": [
+        {
+          "type": "p",
+          "strike": 85,
+          "qty": -1
+        },
+        {
+          "type": "c",
+          "strike": 120,
+          "qty": 1
+        }
+      ],
+      "hedge_delta": true,
+      "thesis": "The market prices ORCL's print with a heavy downside tail (event skewness {g_mkt} implied from the risk reversal) while ORCL's own history skews the other way ({g_ours}); the 25d RR at {rr} vols is about {skew_gap_abs} vols too rich in puts versus our view.",
+      "why_structure": "Our move-size forecast ({fc}%) matches the market ({imp}%), so there is no vol edge, and we have no strong direction (neutral, confidence 2). The cleanest way to trade only the shape is a delta-hedged risk reversal: sell the expensive 85 put, buy the 120 call, short about {hedge_shares} shares per share of RR to flatten delta. The ORCL RR quote is tight ({rr_hw} vols half-width), so the gap is tradeable.",
+      "needs": "Pure skew trade, so the static expiry profile is the key check: with the stock hedge it makes money if ORCL finishes Dec 18 between {be0} and {be1} (about -34% to +2%) or above {be2} (+35%). In plain terms it wins if the print is not the crash the put market is braced for and not a moderate rally. Model win rate {win}%, expected P&L {ev} per share ({ev_pct}% of spot). Rough edge if the RR simply moves to our fair value: about {edge} per share, estimated as the vol gap times the legs' vega.",
+      "wrong": "Two ways. (1) A financing scare on the print (bigger capex, more equity issuance, weaker cash flow, an OpenAI renegotiation) that takes ORCL below about 67 would validate the market's left tail; our 12-event history has no funding-stress quarter, so the market may know something our base rate cannot see. (2) A moderate rally: the short-stock hedge loses faster than the 120 call gains until the call is in the money, so a +10% to +30% pop costs up to {worst_pnl} per share (worst near {worst_at}).",
+      "risks": "Static P&L at expiry by move: {scenarios}. Gap risk below -34% grows by about 0.5 per $1 drop. In practice re-hedge delta after the print instead of holding the Friday hedge to expiry. Short downside gamma into a print in a crisis tape; size off the -40% scenario."
+    }
+  },
+  "ADBE": {
+    "event": "Q4 FY26 results plus FY27 targets, Wed Dec 9 after the close (confirmed)",
+    "consensus_vs_guidance": "Company Q4 targets (Sep 10 release): revenue $6.80-6.85B, non-GAAP EPS $6.30-6.35. Consensus: revenue $6.83B and EPS $6.33, both at the midpoint (29 analysts). The December print also brings FY27 targets, which is what the stock trades on.",
+    "revisions": "Quarter EPS consensus flat over 30 days (0 up, 2 down) and +0.2% over 90 days.",
+    "tone": "Steady: record Q3, AI-first ARR up >150% Y/Y, 1B monthly active users, FY26 targets raised. Leadership in transition: Chair and CEO Shantanu Narayen is quoted saying he has 'confidence that Anil will build on this momentum', which points to a CEO succession, and the CFO is interim (Steve Day).",
+    "sector_news": "-10% on the week with software, -15% over a month, roughly -64% from the all-time high (TipRanks headline). Michael Burry disclosed buying ADBE. AI-disruption fears for creative software remain the bear case.",
+    "direction": -1,
+    "confidence": 2,
+    "uncertainty_mult": 1.1,
+    "why": "ADBE beat EPS in 12 of 12 quarters yet fell after 9 of 12 prints because it trades on the forward guide. FY27 targets set during a CEO handover with an interim CFO are more likely to be conservative than aggressive. Past December prints: -6.3% (2023), -13.7% (2024), +2.1% (2025). Held at 2 because valuation and positioning are already depressed. Uncertainty set high for the FY27 guide plus the leadership change.",
+    "trade": {
+      "name": "Short Dec 11 220 iron butterfly, wings 180 / 250 (about +/-15%)",
+      "legs": [
+        {
+          "type": "c",
+          "strike": 220,
+          "qty": -1
+        },
+        {
+          "type": "p",
+          "strike": 220,
+          "qty": -1
+        },
+        {
+          "type": "c",
+          "strike": 250,
+          "qty": 1
+        },
+        {
+          "type": "p",
+          "strike": 180,
+          "qty": 1
+        }
+      ],
+      "hedge_delta": false,
+      "thesis": "ADBE options price a {imp}% event move; our forecast is {fc}% because recent prints have been small (last four averaged {last4}%) even with the FY27 guide and leadership change folded in.",
+      "why_structure": "Defined-risk short vol. An iron fly rather than a naked straddle because 4 of ADBE's last 12 moves were bigger than 13%. Symmetric wings because the skew is in line with our view (gap {skew_gap} vols against a {rr_hw}-vol bid/ask on the RR).",
+      "needs": "ADBE to settle Dec 11 between {be_lo} and {be_hi}. Model win rate {win}%, expected P&L {ev}% of spot at Friday marks. Preferred entry is the Dec 9 close: projected straddle {evday}% of spot, {hist_inside} past moves inside it.",
+      "wrong": "This is the weakest of the three ideas. On the 12-quarter mean alone (7.8%) the gap is only about -9%, below our 20% bar, so the flag leans on the recency weight. A conservative FY27 guide during the leadership handover could easily produce another 13-14% drop like Dec 2024 and Mar 2025.",
+      "risks": "Static P&L at expiry by move: {scenarios}. Max loss {max_loss} per share ({max_loss_pct}% of spot) beyond the 180 wing, {max_loss_up} beyond 250. ADBE wing quotes are very wide this weekend (RR bid/ask {rr_hw} vols); trade only on live markets. Run at half the size of the CRM idea."
+    }
+  },
+  "_trades_readme": "Trade specs are only used if 06_forecast.py flags the name. Legs are priced at Friday 11/20 mids on the post-event expiry by 07_trade_ideas.py. qty is per share (-1 = sell one option). hedge_delta adds stock to make the package delta-neutral at entry. Text fields may use {placeholders} filled from data/forecast.csv, data/trade_econ.csv and data/trade_ideas.csv by 09_build_report.py.",
+  "_bottom_line": "CRM is the best idea: event vol looks rich *and* the put skew looks rich, which points to a short iron fly with the put wing pushed out. ADBE is a smaller short-vol idea that leans on recent quiet prints. ORCL is a pure skew trade: the size of the move is fairly priced, but the downside tail is priced far fatter than ORCL's history. AVGO is no trade: our forecast sits inside a very wide implied range, and its skew quote is too wide to trade off a weekend mark.",
+  "_bottom_line_trades": [
+    "ADBE",
+    "CRM",
+    "ORCL"
+  ]
+}

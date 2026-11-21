@@ -1,0 +1,50 @@
+{
+ "AAPL": {
+  "mid": "/m/0k8z",
+  "label": "Apple (Technology company)"
+ },
+ "MSFT": {
+  "mid": "/m/04sv4",
+  "label": "Microsoft (pinned topic id)"
+ },
+ "NVDA": {
+  "mid": "/m/09rh_",
+  "label": "Nvidia (AI company)"
+ },
+ "GOOGL": {
+  "mid": "/m/045c7b",
+  "label": "Google (pinned topic id)"
+ },
+ "AMZN": {
+  "mid": "/m/0mgkg",
+  "label": "Amazon (pinned topic id)"
+ },
+ "META": {
+  "mid": "/m/0hmyfsv",
+  "label": "Meta (Technology company)"
+ },
+ "AVGO": {
+  "mid": "/m/031dty",
+  "label": "Broadcom Corporation (Semiconductor company)"
+ },
+ "ORCL": {
+  "mid": "/m/05njw",
+  "label": "Oracle (IT company)"
+ },
+ "CRM": {
+  "mid": "/m/07btr5",
+  "label": "Salesforce Inc (Software company)"
+ },
+ "ADBE": {
+  "mid": "/m/0vlf",
+  "label": "Adobe (Computer software company)"
+ },
+ "AMD": {
+  "mid": "/m/0z64",
+  "label": "AMD (Semiconductor company)"
+ },
+ "NFLX": {
+  "mid": "/m/017rf_",
+  "label": "Netflix (pinned topic id)"
+ }
+}

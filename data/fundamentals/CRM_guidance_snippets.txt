@@ -1,0 +1,70 @@
+SOURCE: https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm
+FILED: 2026-08-26
+
+- EX-99.1 2 crm-q2fy27xexhibit991.htm EX-99.1 Document Exhibit 99.1 Salesforce Delivers Record Second Quarter Fiscal 2027 Results cRPO growth accelerates to 14% Y/Y CC; Raises FY27 revenue guidance by $200M, $300M in CC SAN FRANCISCO, Calif. - August 26, 2026 - Salesforce (NYSE: CRM), the world's #1 AI CRM, today announced results for its second quarter fiscal 2027 ended July 31, 2026.
+
+- Effective Q2 FY27, Agentforce ARR includes our AI offerings, Slackbot and Headless 360 • 7.0 billion Agentic Work Units (“AWUs”) delivered to date across Agentforce and Slack, with 3.2 billion in Q2, growing 97% quarter-over-quarter ("Q/Q") • Slack delivered its fastest quarterly Net New Annual Order Value ("NNAOV") growth since acquisition as Slackbot users grew over 150% Q/Q • Bookings from Agentforce One Edition and Agentforce for Apps, premium SKUs anchored in Sales and Service including the value from Agentic capabilities, more than doubled Q/Q • In Q2, Data 360 ingested 104 trillion records, up 355% Y/Y, including 82 trillion via Zero Copy, up 731% Y/Y, and processed 22 terabytes of unstructured data Guidance Salesforce raises full year FY27 revenue guidance to $46.1 billion to $46.4 billion, up 11% - 12% Y/Y and 11% Y/Y in CC.
+
+- The Company now expects both transactions to close independently in the coming weeks, during the third quarter of Salesforce's fiscal year 2027.
+
+- These acquisitions have been incorporated into all metrics within the Company's updated guidance, with the exception of cRPO; the guidance is conditional upon the closing of these transactions.
+
+- With the U.S. dollar strengthening in Q2, Salesforce now expects a reduced currency tailwind for the business relative to prior guidance.
+
+- This currency movement has been incorporated into the Company's updated guidance. • Initiates third quarter FY27 revenue guidance of $11.42 billion to $11.5 billion, up 11% - 12% Y/Y and in CC, including slightly above 4pts Informatica contribution • Initiates third quarter FY27 cRPO growth guidance of approximately 14% Y/Y and in CC, which does not include any contribution from the pending acquisitions of Contentful and Fin • Raises full year FY27 revenue guidance, now expects full year FY27 revenue of $46.1 billion to $46.4 billion, up 11% - 12% Y/Y and 11% in CC, including slightly above 3pts Informatica contribution.
+
+- The $200M raise, $300 million CC, reflects $100 million of organic growth, $200 million from the pending Contentful and Fin acquisitions, and $100M FX headwind • Raises full year FY27 subscription and support revenue growth guidance to slightly above 12% Y/Y and slightly under 12% in CC, including slightly above 3pts Informatica contribution • Updates full year FY27 GAAP operating margin guidance to 20.1%, and maintains non-GAAP operating margin guidance of 34.3% • Maintains full year FY27 operating cash flow growth guidance and free cash flow growth guidance of approximately 4% - 5% Y/Y • Final settlement of the company's $25 billion ASR is expected in October 2026.
+
+- Salesforce's guidance includes GAAP and non-GAAP financial measures.
+
+- The Company's shares used in computing GAAP diluted net income per share guidance and non-GAAP diluted net income per share guidance reflect the reduction to share count from the 103 million shares initially delivered under the ASR, but excludes any impact to share count from the final ASR settlement or potential Q3 - Q4 FY27 open-market repurchase activity under our share repurchase program. (2) Revenue FX impact is calculated by taking the current period rates compared to the prior period average rates. (3) Current remaining performance obligation FX impact is calculated by taking the current period rates compared to the prior period ending rates. (4) Subscription and support revenue excludes professional services revenue.
+
+- The following is a reconciliation of GAAP operating margin guidance to non-GAAP operating margin guidance for the full year: Full Year FY27 Guidance GAAP operating margin (1) 20.1% Plus Amortization of purchased intangibles (2) 4.4% Stock-based compensation expense (2)(3) 9.0% Restructuring and acquisition-related costs (2)(3) 0.8% Non-GAAP operating margin (1) 34.3% (1) GAAP operating margin is the proportion of GAAP income from operations as a percentage of GAAP revenue.
+
+- Non-GAAP operating margin is the proportion of non-GAAP income from operations as a percentage of GAAP revenue. (2) The percentages shown above have been calculated based on the midpoint of the low and high ends of the revenue guidance for full year FY27. (3) The percentages shown in the restructuring and acquisition-related costs line have been calculated based on charges associated with the Company's restructuring initiatives and acquisition-related costs.
+
+- The following is a per share reconciliation of GAAP diluted net income per share to non-GAAP diluted net income per share guidance for the next quarter and the full year: Fiscal 2027 Q3 FY27 GAAP diluted net income per share range (1)(2) $1.81 - $1.83 $10.21 - $10.25 Plus Amortization of purchased intangibles $ 0.57 $ 2.45 Stock-based compensation expense $ 1.29 $ 4.96 Restructuring and acquisition-related costs (3) $ 0.12 $ 0.42 Less Income tax effects and adjustments (4) $ (0.37) $ (1.37) Non-GAAP diluted net income per share (2) $3.42 - $3.44 $16.67 - $16.71 Shares used in computing basic net income per share (millions) (5) 824 835 Shares used in computing diluted net income per share (millions) (5) 827 838 (1) The Company's GAAP tax provision is expected to be approximately 21.8% for the three months ended October 31, 2026 and 22.3% for the year ended January 31, 2027.
+
+- The GAAP tax rates may fluctuate due to discrete tax items, changes in valuation allowance assessment, future acquisitions, or other transactions. (2) The Company's projected GAAP and non-GAAP diluted net income per share assumes no change to the value of our strategic investment portfolio as it is not possible to forecast future gains and losses.
+
+- The impact of future gains or losses from the Company’s strategic investment portfolio could be material. (3) The estimated impact to GAAP diluted net income per share is in connection with the Company's restructuring initiatives and acquisition-related costs. (4) The Company’s non-GAAP tax provision uses a long-term projected tax rate of 20.5%, which reflects currently available information and could be subject to change. (5) The Company's shares used in computing GAAP net income per share guidance and non-GAAP net income per share guidance reflect the reduction to share count from the 103 million shares initially delivered under the ASR, but excludes any impact to share count from the final ASR settlement or potential Q3 - Q4 FY27 open-market repurchase activity under our share repurchase program.
+
+- Management will provide further commentary around these guidance assumptions on its earnings call.
+
+- Additional Metrics (Unaudited) Supplemental Revenue Analysis Remaining Performance Obligation Remaining performance obligation ("RPO") represents contracted revenue that has not yet been recognized, which includes unearned revenue and unbilled amounts that will be recognized as revenue in future periods.
+
+- RPO is influenced by several factors, including seasonality, the timing of renewals, the timing of term license deliveries, average contract terms and foreign currency exchange rates.
+
+- Remaining performance obligation is also impacted by acquisitions.
+
+- Unbilled portions of RPO denominated in foreign currencies are revalued each period based on the period end exchange rates.
+
+- The portion of RPO that is unbilled is not recorded on the condensed consolidated balance sheets.
+
+- RPO consisted of the following (in billions): Current Noncurrent Total As of July 31, 2026 $ 33.5 $ 32.8 $ 66.3 As of April 30, 2026 33.6 34.3 67.9 As of January 31, 2026 35.1 37.3 72.4 As of October 31, 2025 29.4 30.1 59.5 As of July 31, 2025 29.4 30.5 59.9 Unearned Revenue Unearned revenue represents amounts that have been invoiced in advance of revenue recognition and is recognized as revenue when transfer of control to customers has occurred or services have been provided.
+
+- Disaggregation of Revenue Subscription and Support Revenue by the Company's service offerings (1) Subscription and support revenues consisted of the following (in millions): Three Months Ended July 31, Six Months Ended July 31, 2026 2025 2026 2025 Agentforce Apps $ 7,193 $ 6,682 $ 14,102 $ 13,027 Data 360, Headless Platform, and Other 3,618 3,008 7,299 5,960 Hedging gains 9 0 12 0 Total Subscription and Support Revenue $ 10,820 $ 9,690 $ 21,413 $ 18,987 (1) To reflect the evolution of its product architecture to deliver the Agentic Enterprise, and consistent with how management evaluates the performance of the business, the Company revised the presentation of its disaggregated revenue disclosures in the first quarter of fiscal 2027 into two primary categories: Agentforce Apps, and Data 360, Headless Platform, and Other.
+
+- The primary purpose of using non-GAAP financial measures is to provide supplemental information that may prove useful to investors and to enable investors to evaluate the Company’s results in the same way management does.
+
+- As described above, the Company excludes or adjusts for the following in its non-GAAP results and guidance: • Stock-Based Compensation Expense: The Company’s compensation strategy includes the use of stock-based compensation expense to attract and retain employees and executives.
+
+- The Company excludes these restructuring charges because they are distinct from ongoing operational costs and it does not believe they are reflective of current and expected future business performance and operating results. • Acquisition-related costs: Acquisition-related expenses include transaction and integration expenses for consummated transactions that are incurred prior to the acquisition closing or within the first year of the acquisition close date, which may include transaction or integration expenses paid to third parties, one-time severance and retention bonuses for acquired and transitional employees, or exit costs associated with an acquired company’s long-lived assets, such as real estate, or other long-term commercial agreements.
+
+- The Company excludes these acquisition-related expenses because they are distinct from ongoing operational costs and the Company does not believe they are reflective of current and expected future business performance and operating results. • Gains (Losses) on Strategic Investments, net: The Company records all fair value adjustments to its equity securities held within the strategic investment portfolio through the statement of operations.
+
+- As it is not possible to forecast future gains and losses, the Company assumes no change to the value of its strategic investment portfolio in its GAAP and non-GAAP estimates for future periods, including its guidance.
+
+- Gains (Losses) on Strategic Investments, net, are included in its GAAP financial statements. • Income Tax Effects and Adjustments: The Company utilizes a fixed long-term projected non-GAAP tax rate in order to provide better consistency across the interim reporting periods by eliminating the effects of items such as changes in the tax valuation allowance and tax effects of acquisition-related costs, since each of these can vary in size and frequency.
+
+- When projecting this long-term rate, the Company evaluated a three-year financial projection that excludes the direct impact of the following non-cash items: stock-based compensation expenses and the amortization of purchased intangibles.
+
+- The projected rate also considers factors including the Company’s expected tax structure, its tax positions in various jurisdictions and key legislation in major jurisdictions where the Company operates.
+
+- For fiscal 2026, the Company used a projected non-GAAP tax rate of 22.0%.
+
+- For fiscal 2027, the Company uses a projected non-GAAP tax rate of 20.5%, which reflects currently available information, as well as other factors and assumptions.
+
+- To present current remaining performance obligation growth rates on a constant currency basis, current remaining performance obligation balances in local currencies in previous comparable periods are converted using the United States dollar currency exchange rate as of the most recent balance sheet date.
+
+- From time to time, we may update this metric to incorporate new products, feature offerings, or acquired technologies that meet its definition.

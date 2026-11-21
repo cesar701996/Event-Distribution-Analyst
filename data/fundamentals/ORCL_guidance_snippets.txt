@@ -1,0 +1,32 @@
+SOURCE: https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm
+FILED: 2026-09-10
+
+- Remaining Performance Obligations Customer demand for AI Cloud Training and Inferencing Services continues to grow faster than supply.
+
+- Oracle booked more than $30 billion of additional AI cloud contracts in Q1 increasing its RPO to $664 billion.
+
+- Guidance for Q2 FY 2027 Oracle is providing the following forward-looking guidance for Q2 FY 2027: • Total revenues are expected to grow between 30% and 34% in constant currency and USD. • Total Cloud revenue is expected to grow between 64% and 70% in constant currency and between 65% and 71% in USD. • Non-GAAP earnings per share is expected to be between $1.83 and $1.91 in constant currency and between $1.85 and $1.93 in USD, which represents growth of 19% to 23% in constant currency and 21% to 25% in USD excluding a one-time gain from Q2 FY2026 1 .
+
+- Guidance for Full FY 2027 For fiscal year 2027, we now expect total revenue to be at least $90 billion, and non-GAAP EPS to be at $8.10.
+
+- Including the investment gain, Q2 FY27 non-GAAP earnings per share is expected to decline between -19% and -15% in constant currency and decline between -18% and -14% in USD.
+
+- For more information about Oracle (NYSE: ORCL), please visit us at www.oracle.com. # # # Trademarks Oracle, Java, MySQL, and NetSuite are registered trademarks of Oracle Corporation.
+
+- "Safe Harbor" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including statements regarding the anticipated benefits and future use cases for AI, expected future revenues, cloud revenue growth, earnings per share, and future dividend payments are "forward-looking statements" and are subject to material risks and uncertainties.
+
+- Movements in international currencies relative to the United States dollar during the three months ended August 31, 2026 compared with the corresponding prior year period decreased our total operating expenses by 1 percentage point. (2) Provision for income taxes for the first quarter of fiscal 2026 includes the impact of the U.S.
+
+- Non-GAAP Cloud and software $ 134 $ (134 ) $ — $ 156 $ (156 ) $ — Hardware 6 (6 ) — 7 (7 ) — Services 51 (51 ) — 49 (49 ) — Sales and marketing 171 (171 ) — 177 (177 ) — Research and development 667 (667 ) — 647 (647 ) — General and administrative 98 (98 ) — 88 (88 ) — Total stock-based compensation $ 1,127 $ (1,127 ) $ — $ 1,124 $ (1,124 ) $ — (4) Estimated future annual amortization expense related to intangible assets as of August 31, 2026 was as follows: Remainder of fiscal 2027 $ 529 Fiscal 2028 694 Fiscal 2029 620 Fiscal 2030 582 Fiscal 2031 377 Fiscal 2032 182 Thereafter 43 Total intangible assets, net $ 3,027 (5) Income tax effects were calculated reflecting an effective GAAP tax rate of 15.1% and 14.6% in the first quarter of fiscal 2027 and 2026, respectively, and an effective non-GAAP tax rate of 16.9% and 20.5% in the first quarter of fiscal 2027 and 2026, respectively.
+
+- The difference in our GAAP and non-GAAP tax rates in each of the first quarters of fiscal 2027 and 2026 was primarily due to the net tax effects related to stock-based compensation expense, amortization of intangible assets and restructuring and other expense, partially offset by the net deferred tax effects related to an income tax benefit that was previously recorded due to the partial realignment of our legal entity structure; and, for the first quarter of fiscal 2026, also due to the impact of the U.S.
+
+- ORACLE CORPORATION Q1 FISCAL 2027 FINANCIAL RESULTS NET CASH OUTLAY FOR CAPITAL EXPENDITURES (1) ($ in millions) Fiscal 2026 Fiscal 2027 Q1 Q2 Q3 Q4 TOTAL Q1 Q2 Q3 Q4 TOTAL Capital Expenditures $ 8,502 $ 12,033 $ 18,635 $ 16,493 $ 55,663 $ 28,499 $ 28,499 Less: Other Short-Term Financing Cash Flow Related to Capital Expenditures (2) (1,958 ) 760 (1,469 ) (678 ) (3,345 ) 830 830 Less: Customer Prepayments with Significant Financing Component for Capital Expenditures (3) — — — (4,592 ) (4,592 ) (11,363 ) (11,363 ) Net Cash Outlay for Capital Expenditures $ 6,544 $ 12,793 $ 17,166 $ 11,223 $ 47,726 $ 17,966 $ 17,966 (1) To supplement our cash flow for capital expenditures presented in our statements of cash flows in accordance with GAAP, we provide net cash outlay for capital expenditures.
+
+- We believe this supplemental presentation of net cash outlay for capital expenditures is useful because it provides additional information about the cash requirement for funding of our capital expenditures and is used by management when forecasting expected capital expenditures. (2) Represents other short-term financing cash flows related to capital expenditures as reported in cash flows from financing activities in our statements of cash flows.
+
+- These non-GAAP measures are among the primary factors management uses in planning for and forecasting future periods.
+
+- We recorded a net tax expense of $958 million during the first quarter of fiscal 2026, primarily related to the remeasurement of a deferred tax liability previously recorded during fiscal 2021, as part of the partial realignment of our legal entity structure.
+
+- We have excluded the impact of this charge from our non-GAAP income taxes and net income measures in the first quarter of fiscal 2026.

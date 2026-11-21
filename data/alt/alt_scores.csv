@@ -1,0 +1,5 @@
+ticker,lead_days,asvi_now,asvi_hist_mean,asvi_hist_std,z,score,alt_mult,asvi_now_incl_partial_week,last_complete_week,topic
+AVGO,19,0.323,-0.101,0.348,1.22,1.22,1.009,0.47,2026-11-08,Broadcom Corporation (Semiconductor company)
+ORCL,24,-0.202,0.028,0.155,-1.49,-1.49,0.99,-0.1,2026-11-08,Oracle (IT company)
+CRM,12,-0.188,0.012,0.122,-1.64,-1.64,0.989,-0.067,2026-11-08,Salesforce Inc (Software company)
+ADBE,19,-0.126,0.027,0.064,-2.41,-2.0,0.986,-0.056,2026-11-08,Adobe (Computer software company)

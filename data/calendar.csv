@@ -1,0 +1,13 @@
+ticker,last_event,next_event,timing,date_is_estimate,in_window,status
+AAPL,2026-11-02,2027-01-28,AMC,True,False,no catalyst
+MSFT,2026-10-28,2027-01-27,AMC,True,False,no catalyst
+NVDA,2026-11-17,2027-02-24,AMC,False,False,no catalyst
+GOOGL,2026-10-28,2027-02-03,AMC,False,False,no catalyst
+AMZN,2026-10-29,2027-02-04,AMC,False,False,no catalyst
+META,2026-10-21,2027-01-27,AMC,True,False,no catalyst
+AVGO,2026-09-02,2026-12-09,AMC,False,True,EVENT
+ORCL,2026-09-10,2026-12-14,AMC,False,True,EVENT
+CRM,2026-08-26,2026-12-02,AMC,False,True,EVENT
+ADBE,2026-09-10,2026-12-09,AMC,False,True,EVENT
+AMD,2026-11-03,2027-02-02,AMC,True,False,no catalyst
+NFLX,2026-10-20,2027-01-19,AMC,True,False,no catalyst

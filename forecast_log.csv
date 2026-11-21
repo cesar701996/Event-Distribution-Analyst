@@ -1,0 +1,5 @@
+ticker,event_date,event_timing,reaction_date,spot_asof,implied_move_straddle_pct,implied_event_move_pct,forecast_move_pct,gap_pct_of_implied,direction_call,confidence,p_up,skew_view,market_rr25,model_rr25,trade_idea,trade_structure,actual_move_pct,actual_abs_move_pct,abs_move_vs_implied,abs_move_vs_forecast,direction_correct,trade_result,notes
+CRM,2026-12-02,AMC,2026-12-03,180.62,13.08,10.26,7.54,-26.5,up,3,0.59,market puts rich vs our view,9.04,2.04,yes,"Short Dec 4 180 iron butterfly, put wing pushed out to 145 (broken wing)",,,,,,,
+AVGO,2026-12-09,AMC,2026-12-10,304.41,16.72,8.7,10.56,21.4,neutral,2,0.5,market puts rich vs our view (inside RR bid/ask; not flagged),20.68,13.07,no,,,,,,,,
+ADBE,2026-12-09,AMC,2026-12-10,217.71,13.62,9.37,7.04,-24.8,down,2,0.333,in line,5.04,3.65,yes,"Short Dec 11 220 iron butterfly, wings 180 / 250 (about +/-15%)",,,,,,,
+ORCL,2026-12-14,AMC,2026-12-15,101.19,20.66,11.5,11.61,1.0,neutral,2,0.5,market puts rich vs our view,21.19,10.94,yes,"Long Dec 18 25-delta risk reversal (sell 85 put, buy 120 call), delta-hedged with stock",,,,,,,

@@ -1,0 +1,8 @@
+yfinance>=1.8
+pandas>=3.0
+numpy>=2.0
+scipy>=1.18
+matplotlib>=3.11
+requests>=2.32
+beautifulsoup4>=4.12
+pytrends>=4.9
