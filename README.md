@@ -76,6 +76,21 @@ To change the as-of date, edit `AS_OF` in `code/config.py`, delete `data/spot.cs
 Judgment inputs (direction, confidence, notes, trade legs) live in `code/analyst_views.json`.
 Every number in the report traces to a file in `data/`.
 
+## Keeping score
+
+After an event reports, run:
+
+```bash
+python code/10_scorecard.py
+```
+
+It freezes every forecast in `data/scorecard.csv` the first time it sees it (so a later run can never
+change what was said before the event), then fills in the actual move, whether our forecast or the
+options market was closer, whether the direction call was right, and, once the option expiry passes,
+the P&L of each trade idea valued at the marks it was priced at. Results go to **[scorecard.md](scorecard.md)**
+and into `forecast_log.csv`. Misses stay in. If yfinance is missing a close, pass your own with
+`--prices closes.csv` (columns `ticker,date,close`); `--as-of YYYY-MM-DD` scores as of a given day.
+
 ## Method in brief
 
 - **Forecast size** = 0.6 x mean |move| (12 prints) + 0.4 x mean |move| (last 4), with today's

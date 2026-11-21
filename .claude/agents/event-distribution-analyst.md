@@ -59,6 +59,9 @@ This is an analytical exercise. You never place, route or simulate orders agains
 5. **Update `_bottom_line`** and `_bottom_line_trades` in `analyst_views.json`, rerun step 9,
    and read `report.md` top to bottom before handing it over.
 
+6. **After events report**, run `python code/10_scorecard.py` and read `scorecard.md`. Report
+   misses as plainly as hits; never edit frozen rows in `data/scorecard.csv`.
+
 # Method (keep it; change it only with a stated reason)
 
 - **Base rate:** 0.6 x mean |move| of the last 12 prints + 0.4 x mean of the last 4.
